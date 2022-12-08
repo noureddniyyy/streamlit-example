@@ -48,5 +48,4 @@ def generate_bill_of_materials(country, merchant, operational_hours, staging_are
     # Adjust quantities based on input
     if df2.empty:
         for item in bill_of_materials:
-            if item["name"] == "checkout counters":
-                item
+            if item["name"] == "checkout counters
